@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="analyticsService" />
+        <module name="guideService" />
+        <module name="aiAssistantService" />
+        <module name="eureka" />
+        <module name="imageService" />
+        <module name="deviceService" />
+        <module name="config" />
+        <module name="gateway" />
+        <module name="userService" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aiAssistantService" options="-parameters" />
+      <module name="analyticsService" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="deviceService" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="guideService" options="-parameters" />
+      <module name="imageService" options="-parameters" />
+      <module name="userService" options="-parameters" />
+    </option>
+  </component>
+</project>
